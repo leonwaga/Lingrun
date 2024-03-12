@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEI MEI</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/whole house.jpg"  width="100%" id="MainImg" alt="RO-SY3">
+        </div>
+        
+        <div class="single-pro-details">
+            <h6>RO-SY3</h6>
+            <h4>High-Capacity Reverse Osmosis Water Filter</h4>
+            <h4>Product Details</h4>
+            <span>The RO-SY3 is a high-capacity reverse osmosis water filter designed for both commercial and residential applications. It features advanced filtration technology to remove up to 99.9% of contaminants, including salts, bacteria, particles, sugars, proteins, dyes, and other impurities. This system is suitable for use in restaurants, offices, factories, schools, hotels, and homes, providing clean and safe drinking water.</span>
+        </div>
+    </section>
+     
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <div class="pro-container">
+                <div class="pro" onclick="window.location.href='singleproduct_ro400.html';">
+                <img src="img/under the sink.jpg" alt="">
+                <div class="pro-info">
+                    <H4>RO-400</H4>
+                </div>
+            </div>
+            <div class="pro" onclick="window.location.href='singleproduct_rosy3.html';">
+                <img src="img/whole house.jpg" alt="">
+                <div class="pro-info">
+                    <H4>RO-SY3</H4>
+                </div>
+            </div>
+            <div class="pro" onclick="window.location.href='singleproduct_500lh.html';">
+                <img src="img/esate.1.png" height="85%" alt="">
+                <div class="pro-info">
+                    <H4>500L/H</H4>
+                </div>
+            </div>
+            <div class="pro" onclick="window.location.href='singleproduct_130lh.html';">
+                <img src="img/water dispenser.jpg" height="85%" alt="">
+                <div class="pro-info">
+                    <H4>130L/H</H4>
+                </div>
+            </div>
+        </div> 
+    </section>
+   
+    <footer class="section-p1">
+        <img class="logo" src="img/logo.png" alt="">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Suite 12 GreenHouse, Ngong Road, Nairobi, Kenya</p>
+            <p><strong>Phone:</strong> +254 700-288-222 / +254 707-073-645</p>
+            <p><strong>Hours:</strong> Mon - Sat 09:00 - 17:00</p>
+        </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="about.html">About Us</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        for (let i = 0; i < smallimg.length; i++) {
+            smallimg[i].onclick = function() {
+                MainImg.src = smallimg[i].src;
+            }
+        }
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
