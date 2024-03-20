@@ -3,20 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'League', sans-serif;
+    font-family: 'League Spartan', sans-serif;
 }
 
 h1 {
-    font-size: 50px;
-    line-height: 64px;
+    font-size: 3.125rem;
+    line-height: 4rem;
     color: black;
 }
 
 h2 {
     text-align: center;
     margin-top: 2vh;
-    font-size: 100px;
-    line-height: 74px;
+    font-size: 5rem;
     color: #38bff3;
     line-height: 6rem;
 }
@@ -26,26 +25,26 @@ h2 span {
 }
 
 h4 {
-    font-size: 65px;
+    font-size: 4.0625rem;
     color: black;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #38bff3;
 }
 
 h6 {   
     font-weight: 900;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .section-p1 {
-    padding: 80px 180px;
+    padding: 5rem 11.25rem;
 }
 
 .section-m1 {
-    margin: 40px 0;
+    margin: 2.5rem 0;
 }
 
 body {
@@ -206,7 +205,7 @@ body {
 } 
 
 p.UF {
-    font-size: 42px;
+    font-size: 3rem;
     text-align: center;
     padding-right: 5vh;
     margin-left: 110vh;
@@ -339,12 +338,12 @@ footer a {
 #prodetails {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 #prodetails .single-pro-image {
     width: 35%;
-    margin-right: 50px;
+    margin-right: 5rem;
 }
 
 .small-img-group {
@@ -359,34 +358,34 @@ footer a {
 
 #prodetails .single-pro-details {
     width: 50%;
-    padding-top: 30px;
+    padding-top: 3rem;
 }
 
 #prodetails .single-pro-details h6 {
-    font-size: 60px;
+    font-size: 6rem;
 }
 
 #prodetails .single-pro-details h4 {
-    padding: 40px 0 20px 0;
-    font-size: 40px;
+    padding: 4rem 0 2rem 0;
+    font-size: 4rem;
 }
 
 #prodetails .single-pro-details h2 {
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 #prodetails .single-pro-details select {
     display: block;
-    padding: 5px 10px;
-    margin-bottom: 10px;
+    padding: 0.625rem 1.25rem;
+    margin-bottom: 2rem;
 }
 
 #prodetails .single-pro-details input {
-    width: 70px;
-    height: 60px;
-    padding-left: 10px;
-    font-size: 30px;
-    margin-right: 10px;
+    width: 6.875rem;
+    height: 5.625rem;
+    padding-left: 1.25rem;
+    font-size: 3.125rem;
+    margin-right: 1.25rem;
 }
 
 #prodetails .single-pro-details input:focus {
@@ -394,19 +393,19 @@ footer a {
 }
 
 #prodetails .single-pro-details button {
-    font-size: 25px;
+    font-size: 2.5rem;
     background-color: green;
     color: white;
     border: 0;
-    padding: 20px 30px;
-    border-radius: 20px;
+    padding: 1.25rem 1.875rem;
+    border-radius: 2rem;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 #prodetails .single-pro-details span {
-    font-size: 38px;
-    line-height: 55px;
+    font-size: 3.125rem;
+    line-height: 4.375rem;
 }
 
 /*About Page*/
@@ -419,7 +418,7 @@ footer a {
     background-size: cover; 
     background-position: center top;
     background-repeat: no-repeat;
-    padding: 30px 30px;
+    padding: 3.125rem 3.125rem;
     display: flex; 
     flex-direction: column;
     align-items: flex-start;
@@ -427,10 +426,10 @@ footer a {
 }
 
 #hero-about h2 {
-    font-size: 160px;
+    font-size: 10rem;
     color: black;
     align-self: center;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 
 #about-head {
@@ -444,15 +443,15 @@ footer a {
 }
 
 #about-head h2 {
-    font-size: 90px;
+    font-size: 5.625rem;
     font-weight: 700;
     line-height: 8rem;
 }
 
 
 #about-head p {
-    font-size: 45px;
-    margin: 10px 0 30px 0;
+    font-size: 2.8125rem;
+    margin: 1.25rem 0 3rem 0;
     line-height: 5rem;
 }
 
@@ -467,7 +466,7 @@ footer a {
     background-size: cover; 
     background-position: center top;
     background-repeat: no-repeat;
-    padding: 30px 30px;
+    padding: 3.125rem 3.125rem;
     display: flex; 
     flex-direction: column;
     align-items: flex-start;
@@ -479,7 +478,7 @@ footer a {
 }
 
 #hero-contact .title h2 {
-    font-size: 126px;
+    font-size: 7.875rem;
     line-height: 15vh;
    text-align: center;
    padding-right: 100vh;
@@ -488,7 +487,7 @@ footer a {
 #contact-head img {
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 1.875rem;
 }
 
 #contact-details {
@@ -503,18 +502,18 @@ footer a {
 }
 
 #contact-details .details h3 {
-    font-size: 80px;
+    font-size: 8rem;
     font-weight: 800px;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 #contact-details .details p {
-    font-size: 43px;
-    margin: 60px 0 40px 0;
+    font-size: 3.375rem;
+    margin: 6rem 0 4rem 0;
 }
 
 li i {
-    font-size: 30px;
+    font-size: 3.125rem;
 }
 
 #contact-details .map {
@@ -527,7 +526,7 @@ li i {
 #form-details {
     display: flex;
     justify-content: space-between;
-    margin: 60px;
+    margin: 3.75rem;
 }
 
 #form-details form {
@@ -536,12 +535,12 @@ li i {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 60px;
+    padding-left: 3.75rem;
 }
 
 
 #form-details form h6 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 
@@ -552,47 +551,48 @@ li i {
 #form-details form input,
 #form-details form textarea {
     width: 100%;
-    font-size: 25px;
-    padding: 22px 20px;
+    font-size: 1.562rem;
+    padding: 1.375rem 1.25rem;
     outline: none;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     border: 1px solid;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 
 #form-details form button {
-    font-size: 25px;
+    font-size: 1.5625rem;
     background-color: green;
     color: white;
     border: 0;
-    padding: 20px 30px;
-    border-radius: 20px;
+    padding: 1.25rem 1.875rem;
+    border-radius: 1.25rem;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
     input[type="text"]::placeholder {
     color: #999; 
     font-style: italic; 
-    font-size: 26px;
+    font-size: 1.625rem;
 } 
  
     textarea::placeholder {
     color: #999;
     font-style: italic;
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 
 #form-details img {
     width: 80vh;
     height: 65vh;
-    margin-right: 40px;
-    margin-top: 10px;
-    border-radius: 15px;
+    margin-right: 2.5rem;
+    margin-top: 0.625rem;
+    border-radius: 1.875rem;
 }
 
-@media (max-width:799px) {
+@media (max-width:767px) {
+    
     .section-p1{
         justify-content: center;
     }
@@ -608,7 +608,7 @@ li i {
         width: 300px;
         background-color: #0393ccd2;
         box-shadow: 5px 5px 24px #0393ccd2;
-        padding: 80px 0 0 10px;
+        padding: 5rem 0 0 0.625rem;
         transition: 0.03s;
     }
 
@@ -617,7 +617,7 @@ li i {
     }
 
     #navbar li{
-        margin-bottom: 25px;
+        margin-bottom: 1.5625rem;
     }
 
     #mobile {
@@ -631,17 +631,17 @@ li i {
     
     #mobile i {
         color: #fff;
-        font-size: 25px;
-        padding-left: 25px;
+        font-size: 2.5625rem;
+        padding-left: 1.25rem;
     }
 
     #close {
         display: initial;
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: 1.875rem;
+        left: 1.875rem;
         color: #222;
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
 
     #lg-bag{
@@ -650,7 +650,7 @@ li i {
 
     #hero {
         height: 70vh;
-        padding: 0px 80px;
+        padding: 0px 5rem;
         background-position: top 30% right 30%;
     }
 
@@ -659,7 +659,7 @@ li i {
     }
 
     #feature .feature-box {
-        margin: 15px 15px;
+        margin: 1.5625rem;
     }
 
     #footer {
@@ -667,25 +667,25 @@ li i {
     }
 }
 
-@media (max-width: 477px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .section-p1{
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     #header {
-        padding: 10px 30px;
+        padding: 0.625rem 1.875rem;
     }
     
     h1 {
-        font-size: 38px;
+        font-size: 2.375rem;
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     #hero {
-        padding: 0 20px;
+        padding: 0 1.25rem;
         background-position: 55%;
     }
 
@@ -694,8 +694,8 @@ li i {
     }
 
     #feature .feature-box {
-        width: 155px;
-        margin: 0 0 15px 0;
+        width: 9.6875rem;
+        margin: 0 0 1.25rem 0;
     }
 
     #product1 .pro {
@@ -738,11 +738,11 @@ li i {
 
     #hero-about h2 {
         line-height: 8rem;
-        padding-left: 30px;
-        font-size: 100px;
+        padding-left: 1.875rem;
+        font-size: 6.25rem;
     }
 
     #about-head p {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 }

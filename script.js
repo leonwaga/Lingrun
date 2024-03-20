@@ -1,16 +1,28 @@
-const bar = document.getElementById('bar');
-const close = document.getElementById('close');
-const nav = document.getElementById('navbar');
+import React, { useState } from 'react';
 
-if (bar) {
-    bar.addEventListener('click', () => {
-        nav.classList.add('active');
-    })
+function MobileNav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <div>
+      <input type="checkbox" id="toggle" checked={isOpen} onChange={toggleNav} />
+      <label htmlFor="toggle">&#9776;</label>
+      {isOpen && (
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      )}
+    </div>
+  );
 }
 
-if (close) {
-    close.addEventListener('click', () => {
-        nav.classList.remove('active');
-    })
-}
-
+export default MobileNav;

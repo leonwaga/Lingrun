@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WEI MEI</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
@@ -23,7 +23,6 @@
                 </ul>
             </div>
             <div id="mobile">
-                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a> 
                 <i id="bar" class="fas fa-outdent"></i>
             </div>
         </section>
@@ -100,6 +99,16 @@
                 </div>
         </footer>
         
-    <script src="script.js"></script>
+        <script>
+
+            const barIcon = document.getElementById("bar");
+            const navbar = document.getElementById("navbar");
+
+            barIcon.addEventListener("click", function() {
+                navbar.classList.toggle("active");
+            });
+
+
+        </script>
     </body>
 </html>
