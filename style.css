@@ -591,8 +591,13 @@ li i {
     border-radius: 1.875rem;
 }
 
-@media (max-width:767px) {
+@media screen and  (min-width: 425px) {
     
+ 
+    body {
+        background-color: red;
+    }
+
     .section-p1{
         justify-content: center;
     }
@@ -667,8 +672,14 @@ li i {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .section-p1{
+@media screen and (min-width: 720px)  {
+    
+}      
+        body {
+            background-color: pink;
+        }
+    
+        .section-p1{
         padding: 1.25rem;
     }
 
@@ -745,4 +756,4 @@ li i {
     #about-head p {
         font-size: 1.875rem;
     }
-}
+
